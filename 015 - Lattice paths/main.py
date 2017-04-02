@@ -5,7 +5,6 @@
 #
 # How many such routes are there through a 20×20 grid?
 
-
 def main():
     # print(getNumberOfRoutes(2, 2))
     # print(getNumberOfRoutes(3, 3))
