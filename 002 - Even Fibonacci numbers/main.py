@@ -8,7 +8,7 @@
 from itertools import takewhile
 
 def main():
-    print(sum(takewhile(lambda x: x < 4000000, evenFibonacci())));
+    print(sum(takewhile(lambda x: x < 4000000, evenFibonacci())))
 
 def evenFibonacci():
     fibonacciGenerator = fibonacci()

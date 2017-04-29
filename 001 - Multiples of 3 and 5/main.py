@@ -4,7 +4,7 @@
 # Find the sum of all the multiples of 3 or 5 below 1000.
 
 def main():
-    print(sum(getMultiplesOf([3, 5], 1000)));
+    print(sum(getMultiplesOf([3, 5], 1000)))
 
 def getMultiplesOf(numbers, maximum):
     lst = list()
@@ -14,7 +14,7 @@ def getMultiplesOf(numbers, maximum):
         while m < maximum:
             if not (m in lst):
                 lst.append(x*n)
-            x += 1;
+            x += 1
             m = x*n
     #lst.sort()
     return lst

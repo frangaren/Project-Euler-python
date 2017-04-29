@@ -28,7 +28,7 @@
 # greatest product. What is the value of this product?
 
 def main():
-    numberSequence = loadNumberSequence();
+    numberSequence = loadNumberSequence()
     #print(getGreatestProductOf(4, numberSequence))
     print(getGreatestProductOf(13, numberSequence))
 
